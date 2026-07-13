@@ -1,0 +1,4 @@
+interface:
+  display_name: "播客音视频剪辑"
+  short_description: "用两轮可编辑方案高效完成音频或视频播客剪辑与发布资料"
+  default_prompt: "Use $edit-podcast-video to edit my audio or video podcast and prepare the requested release package."
