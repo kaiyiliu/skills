@@ -8,4 +8,5 @@
 - Reference episodes and attributes to imitate:
 - Subtitle/transcript languages:
 - Delivery per language: SRT / VTT / burned-in / transcript only
+- Self-media cover: requested platforms/aspect ratios, copy, and visual requirements
 - Other non-negotiables:

@@ -4,7 +4,7 @@
 
 ## English
 
-A Codex skill for transcript-led audio and video podcast editing. It uses two user-editable Markdown plans to control content decisions and timeline operations, then produces route-appropriate masters, multilingual subtitles, QC reports, and publishing metadata.
+A Codex skill for transcript-led audio and video podcast editing. It uses two user-editable Markdown plans to control content decisions and timeline operations, then produces route-appropriate masters, multilingual subtitles, self-media cover art, QC reports, and publishing metadata. When visual references exist in `assets/`, cover art follows their style.
 
 ### Install
 
@@ -53,7 +53,7 @@ The skill routes input automatically:
 
 - `video + audio-led`: edit from dialogue/audio and keep audio/video cut boundaries identical.
 - `video + full-visual`: allow approved B-roll, graphics, reframing, or multicam work.
-- `audio-only`: export podcast audio and podcast metadata without YouTube, Xiaohongshu, or visual deliverables.
+- `audio-only`: export podcast audio and podcast metadata without YouTube or Xiaohongshu video deliverables; create a requested self-media cover when publishing materials are needed.
 
 The original media remains unchanged. Human full-length review is required before publication.
 
@@ -67,7 +67,7 @@ The original media remains unchanged. Human full-length review is required befor
 
 ## 中文
 
-这是一个通过逐字稿驱动播客音视频剪辑的 Codex Skill。它使用两份用户可编辑的 Markdown 文档分别控制内容决策和时间线操作，随后生成对应路线需要的母版、多语言字幕、质检报告和发布资料。
+这是一个通过逐字稿驱动播客音视频剪辑的 Codex Skill。它使用两份用户可编辑的 Markdown 文档分别控制内容决策和时间线操作，随后生成对应路线需要的母版、多语言字幕、自媒体封面、质检报告和发布资料。若 `assets/` 中存在视觉参考，封面会遵循其风格。
 
 ### 安装
 
@@ -107,7 +107,7 @@ Skill 会自动选择处理路线：
 
 - `视频 + audio-led`：只根据对白和声音剪辑，音视频使用完全相同的剪切边界。
 - `视频 + full-visual`：可以加入已经批准的 B-roll、图形、重构图或多机位剪辑。
-- `纯音频`：只输出播客音频和播客发布资料，不生成 YouTube、小红书或视觉素材。
+- `纯音频`：只输出播客音频和播客发布资料，不生成 YouTube 或小红书视频素材；如需发布资料，可制作已要求的自媒体封面。
 
 原始媒体始终保持不变。发布前仍需人工完整观看或试听。
 
